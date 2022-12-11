@@ -142,8 +142,7 @@ letter-spacing: 0.02em;
 
 .list-title {
     margin: 0;
-    padding-bottom: 8px;
-    padding-top: 32px;
+    margin-bottom: 8px;
     color: var(--title-text-color);
     font-weight: 600;
     font-size: 20px;
@@ -230,6 +229,10 @@ letter-spacing: 0.02em;
     display: block;
 }
 
+.team-card {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
 
 /* Portfolio */
 
@@ -265,9 +268,12 @@ letter-spacing: 0.02em;
     display: block;
 }
 
-.port-text {
+.port-card {
     border: 0.5px solid #F4F4FD;
     border-top: 0;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    padding-left: 16px;
 }
 
 .port li:nth-child(3n) {
@@ -278,14 +284,6 @@ letter-spacing: 0.02em;
     margin-bottom: 0;
 }
 
-.port .list-title {
-    padding-left: 16px;
-    margin: 0;
-}
-
-.port p {
-    padding-left: 16px;
-}
 
 /* Buttons */
 
@@ -334,12 +332,12 @@ button {
 .text {
     line-height: 1.5;
     letter-spacing: 0.02em;
-}
-
-.card {
-    padding-bottom: 32px;
     margin: 0;
 }
+
+/* .card {
+    margin: 0;
+} */
 
 /* Footer */
 
@@ -348,6 +346,11 @@ button {
     background-color: var(--title-text-color);
     padding-top: 100px;
     padding-bottom: 100px;
+}
+
+.footer a {
+    display: block;
+    margin-bottom: 16px;
 }
 
 /* цвет основного текста + 2 часть лого #2E2F42 */
